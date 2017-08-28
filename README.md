@@ -1,4 +1,4 @@
-# SOLIDPrinciples
+# SOLID Principles
 
 # S(SRP): Single responsibility principle
 A class should have only a single responsibility (i.e. only one potential change in the software's specification should be able to affect the specification of the class)
