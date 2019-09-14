@@ -1,0 +1,5 @@
+﻿
+
+SRP:
+https://code-maze.com/single-responsibility-principle/
+

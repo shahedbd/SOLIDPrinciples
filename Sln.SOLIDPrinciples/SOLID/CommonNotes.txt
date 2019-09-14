@@ -1,6 +1,4 @@
 ﻿
-
-
 http://www.c-sharpcorner.com/blogs/single-responsibility-principle-c-sharp1
 https://www.codeproject.com/Articles/703634/SOLID-architecture-principles-using-simple-Csharp
 
@@ -17,3 +15,4 @@ http://www.csharpstar.com/solid-design-principles-c/
 
 
 https://www.udemy.com/solid-principles/
+

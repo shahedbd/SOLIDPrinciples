@@ -6,7 +6,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
-
+            SingleResponsibilityPrinciple.WithGenericSRP.IMP.ExecuteWithGenericSRP();
             Console.ReadKey();
         }
     }

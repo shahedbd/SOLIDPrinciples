@@ -1,0 +1,8 @@
+﻿
+
+OCP:
+https://code-maze.com/open-closed-principle/
+
+base keyword:
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/base
+
