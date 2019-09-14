@@ -14,11 +14,12 @@
 * Yes, it is quite important for a class to have no more than one task.
 
 <hr />
-![alt text](https://github.com/shahedbd/SOLIDPrinciples/blob/master/Sln.SOLIDPrinciples/SOLID/Resources/SRP01.jpg)
+
+![SRP Image](https://github.com/shahedbd/SOLIDPrinciples/blob/master/Sln.SOLIDPrinciples/SOLID/Resources/SRP01.jpg)
+
 <hr />
-![alt text](https://github.com/shahedbd/SOLIDPrinciples/blob/master/Sln.SOLIDPrinciples/SOLID/Resources/SRP02.jpg)
 
-
+![SRP Image](https://github.com/shahedbd/SOLIDPrinciples/blob/master/Sln.SOLIDPrinciples/SOLID/Resources/SRP02.jpg)
 
 
 ### Open/closed principle(OCP)
