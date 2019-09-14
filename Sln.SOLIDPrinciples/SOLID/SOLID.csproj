@@ -43,39 +43,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="03LiskovsSubstitution\EvenNumbersSumCalculator.cs" />
+    <Compile Include="03LiskovsSubstitution\IMP.cs" />
+    <Compile Include="03LiskovsSubstitution\SumCalculator.cs" />
+    <Compile Include="03LiskovsSubstitution\WithLS\Calculator.cs" />
+    <Compile Include="03LiskovsSubstitution\WithLS\EvenNumbersSumCalculator.cs" />
+    <Compile Include="03LiskovsSubstitution\WithLS\IMP.cs" />
+    <Compile Include="03LiskovsSubstitution\WithLS\SumCalculator.cs" />
     <Compile Include="Entity\DeveloperReport.cs" />
     <Compile Include="Entity\ScheduleTask.cs" />
     <Compile Include="Entity\WorkReportEntry.cs" />
-    <Compile Include="OpenClosedPrinciple\IMP.cs" />
-    <Compile Include="OpenClosedPrinciple\SalaryCalculator.cs" />
-    <Compile Include="OpenClosedPrinciple\WithOCP\BaseSalaryCalculator.cs" />
-    <Compile Include="OpenClosedPrinciple\WithOCP\IMP.cs" />
-    <Compile Include="OpenClosedPrinciple\WithOCP\JuniorDevSalaryCalculator.cs" />
-    <Compile Include="OpenClosedPrinciple\WithOCP\SalaryCalculator.cs" />
-    <Compile Include="OpenClosedPrinciple\WithOCP\SeniorDevSalaryCalculator.cs" />
+    <Compile Include="02OpenClosedPrinciple\IMP.cs" />
+    <Compile Include="02OpenClosedPrinciple\SalaryCalculator.cs" />
+    <Compile Include="02OpenClosedPrinciple\WithOCP\BaseSalaryCalculator.cs" />
+    <Compile Include="02OpenClosedPrinciple\WithOCP\IMP.cs" />
+    <Compile Include="02OpenClosedPrinciple\WithOCP\JuniorDevSalaryCalculator.cs" />
+    <Compile Include="02OpenClosedPrinciple\WithOCP\SalaryCalculator.cs" />
+    <Compile Include="02OpenClosedPrinciple\WithOCP\SeniorDevSalaryCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithGenericSRP\FileSaver.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithGenericSRP\IEntryManager.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithGenericSRP\IMP.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithGenericSRP\Scheduler.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithGenericSRP\WorkReport.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithSRP\FileSaver.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithSRP\IMP.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WithSRP\WorkReport.cs" />
-    <Compile Include="SingleResponsibilityPrinciple\WorkReport.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithGenericSRP\FileSaver.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithGenericSRP\IEntryManager.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithGenericSRP\IMP.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithGenericSRP\Scheduler.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithGenericSRP\WorkReport.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithSRP\FileSaver.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithSRP\IMP.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WithSRP\WorkReport.cs" />
+    <Compile Include="01SingleResponsibilityPrinciple\WorkReport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommonNotes.txt" />
-    <Content Include="OpenClosedPrinciple\Notes.txt" />
+    <Content Include="02OpenClosedPrinciple\Notes.txt" />
     <Content Include="Resources\SRP01.jpg" />
     <Content Include="Resources\SRP02.jpg" />
-    <Content Include="SingleResponsibilityPrinciple\Notes.txt" />
+    <Content Include="01SingleResponsibilityPrinciple\Notes.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="04InterfaceSegregation\" />
+    <Folder Include="05DependencyInversion\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

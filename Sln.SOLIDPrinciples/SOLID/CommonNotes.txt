@@ -16,3 +16,6 @@ http://www.csharpstar.com/solid-design-principles-c/
 
 https://www.udemy.com/solid-principles/
 
+
+SOLID:
+https://code-maze.com/solid-principles/

@@ -32,8 +32,13 @@ Software entities: classes, modules, functions, etc.
 * It uses interfaces instead of superclasses.
 
 
-
 ### Liskov substitution principle(LSP)
+* Store any subclass reference into a base class variable and the behavior won’t change which is the goal of LSP.
+
+* Child class objects should be able to replace parent class objects without compromising application integrity. 
+
+* What this means essentially, is that we should put an effort to create such derived class objects which can replace objects of the base class without modifying its behavior.
+
 * Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
 * If S is a subtype of T, then objects of type T may be replaced with objects of type S (in other words, objects of type S may substitute objects of type T) without altering any of the desirable properties of that program (correctness, task performed, and so on).
@@ -41,9 +46,10 @@ Software entities: classes, modules, functions, etc.
 
 
 ### Interface segregation principle(ISP)
-* Many client-specific interfaces are better than one general-purpose interface.
-
 * The interface-segregation principle states that no client should be forced to depend on methods it does not use.
+ * Many client-specific interfaces are better than one general-purpose interface.
+
+
 
 ### Dependency inversion principle(DIP)
 * One should depend upon abstractions, not concretions.
