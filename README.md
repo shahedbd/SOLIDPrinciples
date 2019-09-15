@@ -62,6 +62,11 @@ Software entities: classes, modules, functions, etc.
 
 > High-level + Low-level modules + Details: Abstractions
 
+* High-level modules: describe those operations in our application that has more abstract nature and contain more complex logic. These modules orchestrate low-level modules in our application.
+
+* Low-level modules:  contain more specific individual components focusing on details and smaller parts of the application. These modules are used inside the high-level modules in our app.
+
+
 
 
 

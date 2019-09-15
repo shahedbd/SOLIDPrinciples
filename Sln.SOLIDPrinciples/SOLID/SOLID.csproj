@@ -50,7 +50,26 @@
     <Compile Include="03LiskovsSubstitution\WithLS\EvenNumbersSumCalculator.cs" />
     <Compile Include="03LiskovsSubstitution\WithLS\IMP.cs" />
     <Compile Include="03LiskovsSubstitution\WithLS\SumCalculator.cs" />
+    <Compile Include="04InterfaceSegregation\Airplane.cs" />
+    <Compile Include="04InterfaceSegregation\Car.cs" />
+    <Compile Include="04InterfaceSegregation\HigherLevelInterface\IMultiFunctionalVehicle.cs" />
+    <Compile Include="04InterfaceSegregation\HigherLevelInterface\MultiFunctionalCar.cs" />
+    <Compile Include="04InterfaceSegregation\HigherLevelInterface\MultiFunctionalCarDecoratorP.cs" />
+    <Compile Include="04InterfaceSegregation\IVehicle.cs" />
+    <Compile Include="04InterfaceSegregation\MultiFunctionalCar.cs" />
+    <Compile Include="04InterfaceSegregation\WithISP\Airplane.cs" />
+    <Compile Include="04InterfaceSegregation\WithISP\Car.cs" />
+    <Compile Include="04InterfaceSegregation\WithISP\IAirplane.cs" />
+    <Compile Include="04InterfaceSegregation\WithISP\ICar.cs" />
+    <Compile Include="04InterfaceSegregation\WithISP\MultiFunctionalCar.cs" />
+    <Compile Include="05DependencyInversion\EmployeeManager.cs" />
+    <Compile Include="05DependencyInversion\EmployeeStatistics.cs" />
+    <Compile Include="05DependencyInversion\WithDIP\EmployeeManager.cs" />
+    <Compile Include="05DependencyInversion\WithDIP\EmployeeStatistics.cs" />
+    <Compile Include="05DependencyInversion\WithDIP\IEmployeeSearchable.cs" />
+    <Compile Include="05DependencyInversion\WithDIP\IMP.cs" />
     <Compile Include="Entity\DeveloperReport.cs" />
+    <Compile Include="Entity\Employee.cs" />
     <Compile Include="Entity\ScheduleTask.cs" />
     <Compile Include="Entity\WorkReportEntry.cs" />
     <Compile Include="02OpenClosedPrinciple\IMP.cs" />
@@ -71,21 +90,22 @@
     <Compile Include="01SingleResponsibilityPrinciple\WithSRP\IMP.cs" />
     <Compile Include="01SingleResponsibilityPrinciple\WithSRP\WorkReport.cs" />
     <Compile Include="01SingleResponsibilityPrinciple\WorkReport.cs" />
+    <Compile Include="ZCommon\Enums.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="03LiskovsSubstitution\Notes.txt" />
+    <Content Include="04InterfaceSegregation\Notes.txt" />
+    <Content Include="05DependencyInversion\Notes.txt" />
     <Content Include="CommonNotes.txt" />
     <Content Include="02OpenClosedPrinciple\Notes.txt" />
     <Content Include="Resources\SRP01.jpg" />
     <Content Include="Resources\SRP02.jpg" />
     <Content Include="01SingleResponsibilityPrinciple\Notes.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="04InterfaceSegregation\" />
-    <Folder Include="05DependencyInversion\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

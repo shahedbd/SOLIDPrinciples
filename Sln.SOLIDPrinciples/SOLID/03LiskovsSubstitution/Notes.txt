@@ -1,0 +1,5 @@
+﻿
+
+LSP:
+https://code-maze.com/liskov-substitution-principle/
+
